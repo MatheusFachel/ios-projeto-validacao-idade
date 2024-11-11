@@ -1,0 +1,86 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Lexend:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* paleta de cores */
+
+.color1 {color: #ffd947;}
+.color2 {color: #fffb58;}
+.color3 {color: #371506;}
+.color4 {color: #8d8377;}
+.color5 {color: #fffaf2;}
+
+.color1 {color: #000000;}
+.color2 {color: #1a111b;}
+.color3 {color: #5a5568;}
+.color4 {color: #a6b4c4;}
+.color5 {color: #e8f3f6;}
+
+.background1 {background-color: #ffd947;}
+
+/* Classes gerais */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.displayflexcentercentrtcolum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:  column;
+
+}
+
+/* ----------------- config do index --------------------*/
+
+#pag-index{
+    background-image: url(https://cdn.pixabay.com/photo/2017/04/29/20/59/pub-2271551_1280.jpg);
+    font-family: Poppins;
+
+}
+
+.container{
+    height: 100vh;
+
+   
+}
+
+.area-input{
+    padding: 10%;
+    background-color: #371506e0;
+    border-radius: 20px;
+}
+
+.textos-validacao h1{
+    
+    color: white;
+    font-size: 50px;
+}
+
+.textos-validacao p{
+    
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.input-idade{
+    padding: 3%;    
+}
+
+.input-idade input{
+    height: 30px;    
+}
+
+.input-button button{
+    font-size: 30px;
+    width: 200px;
+    border-radius: 10%;
+}
+
+.input-button button:hover{
+    background-color: #ffd947;    
+}
